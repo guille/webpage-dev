@@ -2,11 +2,11 @@
     <!-- Navigation bar -->
   <nav class="navbar is-info is-fixed-top">
     <div class="navbar-brand">
-      <div class="navbar-burger burger" data-target="navbarMenu">
+      <a role="button" class="navbar-burger burger" data-target="navbarMenu">
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </a>
     </div>
 
     <div id="navbarMenu" class="navbar-menu">
@@ -37,5 +37,27 @@ export default {
   },
 }
 
+// Toggle navbar in mobile when tapped
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurger = document.querySelector('.navbar-burger');
+
+  if ($navbarBurger) {
+
+    // Add a click event
+    $navbarBurger.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = $navbarBurger.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $navbarBurger.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  }
+});
 
 </script>
