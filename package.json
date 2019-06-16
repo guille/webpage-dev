@@ -1,46 +1,24 @@
 {
-  "name": "guille.github.io",
-  "version": "0.1.0",
-  "private": true,
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "dev": "saber",
+    "build": "saber build",
     "deploy": "scripts/deploy.sh"
   },
   "dependencies": {
-    "bulma": "^0.7.1",
-    "vue": "^2.5.17",
-    "vue-awesome": "^3.1.2"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0",
-    "@vue/cli-plugin-eslint": "^3.0.0",
-    "@vue/cli-service": "^3.0.0",
-    "vue-template-compiler": "^2.5.17"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "prismjs": "^1.16.0",
+    "saber": "^0.6.3",
+    "saber-highlighter-prism": "^0.3.0",
+    "saber-plugin-feed": "^0.3.2",
+    "saber-plugin-query-posts": "^0.3.1",
+    "saber-theme-tufte": "^1.0.2",
+    "vue-prism-component": "^1.1.1"
+  }
 }

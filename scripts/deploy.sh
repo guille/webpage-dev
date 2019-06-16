@@ -2,9 +2,9 @@
 set -e
 
 # build
-yarn build
+yarn saber build
 
-cd dist
+cd public
 
 git init
 git add -A
