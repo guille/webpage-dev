@@ -15,12 +15,9 @@
 					<h3 class="subtitle is-inline">
 					a Software Engineer based in Barcelona, Spain.<br/><br/> Currently working at Volta Networks.
 					</h3>
-					<p><small>In the process of learning enough web design to make this site look decent.</small></p>
-
 				</div>
 			</div>
 			<div id="contact">
-
 				<a href="https://github.com/guille" target="_blank" rel="noopener">
 					<font-awesome-icon class="fa-icon" :icon="['fab', 'github']" size="4x" />
 				</a>
@@ -45,18 +42,13 @@ export default {
 }
 </script>
 
-<style>
-hr {
-	border: 0;
-	height: 1px;
-	width: 100%;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
+<style scoped>
 #landing {
 	font-family: OpenSans, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: #2c3e50;
+	position: absolute;
 }
 #contact {
     display: flex;
@@ -64,6 +56,8 @@ hr {
 	margin-bottom: 10px;
 	color: var(--accentColor);
 	padding-top: 2rem;
+	padding-right: 10%;
+	padding-left: 10%;
 	text-align: center;
 }
 #contact .fa-icon:hover {
@@ -88,13 +82,16 @@ hr {
 	padding-bottom: 10%;
 }
 .hero {
-	min-height: 100vh;
+	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 	max-width: 75%;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
+}
+.hero-body{
+	margin-bottom: 5%;
 }
 footer {
 	display: none;

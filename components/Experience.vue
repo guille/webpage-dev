@@ -7,9 +7,9 @@
 				Volta Networks,  <small>Sep 2018 — Current</small>
 				<br>
 				<ul>
-					<li>Engineered and maintained major features of Volta's customer-facing gRPC API using Python.</li>
+					<li>Engineered and maintained major features of Volta's customer-facing API using Python.</li>
 					<li>Participated in the migration to a relational data store solution.</li>
-					<li>Contributed to the containerization and integration of all the software components.</li>
+					<li>Contributed to the containerization of all the software components.</li>
 				</ul></p>
 			</div>
 			<div class="column is-four-fifths">

@@ -1,5 +1,5 @@
 <template>
-	<div id="app">
+	<div id="vitae">
 		<!-- Experience -->
 		<Experience></Experience>
 
@@ -47,7 +47,7 @@ export const attributes = {
 }
 
 export default {
-	name: 'app',
+	name: 'vitae',
 	components: {
 		Project,
 		Experience,
@@ -60,24 +60,25 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 hr {
 	border: 0;
 	height: 1px;
 	width: 100%;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
-#app {
+#vitae {
 	font-family: OpenSans, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: #2c3e50;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	max-width: 75%;
-	margin-right: auto;
-	margin-left: auto;
+	min-height: 100%;
+
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*max-width: 75%;*/
+	/*margin-right: auto;*/
+	/*margin-left: auto;*/
 }
 .is-inline {
 	display: inline;

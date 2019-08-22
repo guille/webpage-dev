@@ -2,6 +2,12 @@
 title: Setting up a static blog/portfolio in 2019
 date: 2019-07-08
 layout: post
+excerpt: Creating a blog with Vue and a static site generator.
+tags:
+    - webdev
+    - javascript
+    - vue
+    - saber
 ---
 
 I've always found web development to be needlessly messy. The webdev world, at least from outside, always seems to be moving incredibly fast, and every time you peek into that black hole there seems to be a new framework that you "just have to know". Now, I get that people like to talk about the newest, shiniest thing, even if there's no market for it yet. But JavaScript is the only environment where this seems to happen *so fast*.
@@ -51,6 +57,6 @@ Nothing too crazy here. I already have a Github account and didn't see the need 
 
 ## Now...
 
-One of the reasons I gave for making the re-design is that the old site didn't look good on mobile. You might have noticed that I've made a great improvement in this area, as the new site doesn't look great on neither mobile nor PC.
+One of the reasons I gave for making the re-design is that the old site didn't look good on mobile. As it is now, the new site doesn't look great on neither mobile nor PC. So why the regression?
 
-The blog part looks okay since it's handled by the theme, but the landing and the Vitae sections need some heavy design work. But hey, a big part of why I'm doing this is to learn more about web development and design and knowing the one public website I own is this ugly is a great motivator to learn and get better at it.
+The blog part looks mostly okay since it's handled by the theme, but the landing and the Vitae sections need some more design work. But hey, a big part of why I'm doing this is to learn more about web development and design and knowing the one public website I own is this ugly is a great motivator to learn and get better at it.

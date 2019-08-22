@@ -13,11 +13,13 @@ export const attributes = {
 export default {}
 </script>
 
-<style scoped>
-article {
+<style>
+article.content {
 	/*Since we're using a short description and no subtitle,
-	get rid of the extra space, This doesn't work with scoped, but without it
-	it leaks into the other pages*/
+	get rid of the extra space,*/
 	padding-top: 0;
+}
+footer {
+	display: none;
 }
 </style>
