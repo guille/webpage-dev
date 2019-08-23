@@ -13,7 +13,7 @@
 						Guillermo Rodríguez,
 					</h3>
 					<h3 class="subtitle is-inline">
-					a Software Engineer based in Barcelona, Spain.</h3><br/><br/>
+					a Software Engineer based in Barcelona, Spain.</h3>
 				</div>
 			</div>
 			<div id="contact">
@@ -54,16 +54,26 @@ export default {
     justify-content: space-between;
 	margin-bottom: 10px;
 	color: var(--accentColor);
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-right: 10%;
 	padding-left: 10%;
 	text-align: center;
 }
+#contact a {
+	text-decoration: none;
+	background: none;
+}
+
+@media (max-width: 450px){
+	#contact .fa-icon {
+		height: 70%;
+	}
+}
 #contact .fa-icon:hover {
-  opacity: 0.5;
-  -webkit-transition: opacity .5s;
-  -moz-transition: opacity .5s;
-  transition: opacity .5s;
+	opacity: 0.5;
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	transition: opacity .5s;
 }
 .is-inline {
 	display: inline;
