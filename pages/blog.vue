@@ -19,6 +19,9 @@ article.content {
 	get rid of the extra space,*/
 	padding-top: 0;
 }
+body {
+	padding-left: 0;
+}
 footer {
 	display: none;
 }

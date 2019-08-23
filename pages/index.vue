@@ -13,8 +13,7 @@
 						Guillermo Rodríguez,
 					</h3>
 					<h3 class="subtitle is-inline">
-					a Software Engineer based in Barcelona, Spain.<br/><br/> Currently working at Volta Networks.
-					</h3>
+					a Software Engineer based in Barcelona, Spain.</h3><br/><br/>
 				</div>
 			</div>
 			<div id="contact">
@@ -42,7 +41,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 #landing {
 	font-family: OpenSans, Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -96,4 +95,8 @@ export default {
 footer {
 	display: none;
 }
+body {
+	padding-left: 0;
+}
+
 </style>
