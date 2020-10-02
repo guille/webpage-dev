@@ -1,3 +1,9 @@
-.saber
+# Project dependencies
+.cache
 node_modules
-public
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build directory
+/public

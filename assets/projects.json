@@ -1,7 +1,0 @@
-[
-        {"display": "RaftCore", "languages": ["C#"], "description": "Implementation of the Raft consensus algorithm for the .NET Core platform. Development product of the Bachelor Final Project.", "url": "https://github.com/guille/RaftCore"},
-        {"display": "RaftCoreWeb", "languages": ["ASP.NET", "D3js"], "description": "Web application functioning as a simulator of the Raft consensus algorithm using RaftCore. Development product of the Bachelor Final Project.", "url": "https://github.com/guille/RaftCoreWeb"},
-        {"display": "download_tv", "languages": ["Ruby"], "description": "Command line application that connects to MyEpisodes.com to retrieve the shows followed by the user and then finds magnet links to download those episodes", "url": "https://github.com/guille/download_tv"},
-        {"display": "Twitter-rumor-detector", "languages": ["Java", "Python", "scikit-learn", "nltk"], "description": "Group project for the course \"Web Information Retrieval & Data Mining\". It uses information retrieval, machine learning and NPL techniques to obtain Twitter messages about a certain topic and predict their veracity.", "url": "https://github.com/franloza/Twitter-rumor-detector"},
-        {"display": "GestUsers", "languages": ["Java", "Spring Boot", "Kafka", "MongoDB"], "description": "Group project for the course \"Software Architecture\". Interactive citizen participation system leveraging NoSQL technology and Kafka.", "url": "https://github.com/Arquisoft/parti_i3b"}
-	]

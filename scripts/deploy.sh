@@ -2,7 +2,7 @@
 set -e
 
 # build
-yarn saber build
+yarn build
 
 cd public
 
