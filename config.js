@@ -22,7 +22,7 @@ module.exports = {
     },
     {
       icon: 'fa-file',
-      name: 'Email',
+      name: 'Résumé',
       url: './cv.pdf',
     },
   ],
