@@ -15,11 +15,11 @@ module.exports = {
       name: 'LinkedIn',
       url: 'https://www.linkedin.com/in/guille-rodriguez/',
     },
-    {
-      icon: 'fa-envelope-o',
-      name: 'Email',
-      url: 'mailto:guillerg96@gmail.com',
-    },
+    // {
+    //   icon: 'fa-envelope-o',
+    //   name: 'Email',
+    //   url: 'mailto:...@gmail.com',
+    // },
     {
       icon: 'fa-file',
       name: 'Résumé',
