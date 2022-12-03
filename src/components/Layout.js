@@ -52,7 +52,7 @@ export default Layout;
 
 export const Head = ({ location, params, data, pageContext }) => (
   <>
-    <title>{pageContext.title}</title>
+    <title>Guillermo Rodríguez</title>
     <meta name="description" content="Eventually"></meta>
     <meta name="keywords" content="site,web"></meta>
     <html lang="en" />
