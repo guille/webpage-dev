@@ -17,5 +17,9 @@ jobs:
           repository: guille/guille.github.io
           token: ${{ secrets.PAT_GITHUB_TOKEN }}
           path: target
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Deploy
         run: yarn ci-deploy
