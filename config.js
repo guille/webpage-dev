@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: 'Guillermo Rodríguez', // <title>
   authorName: 'Guillermo Rodríguez',
   heading: 'Software Engineer',
-  location: 'Barcelona',
+  location: 'Barcelona, Spain',
   // social
   socialLinks: [
     {

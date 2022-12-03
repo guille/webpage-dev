@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
 
@@ -22,24 +21,11 @@ class Layout extends Component {
     const { children } = this.props;
     const { isPreloaded } = this.state;
     return (
-      <StaticQuery
-        query={graphql`
-          query SiteTitleQuery {
-            site {
-              siteMetadata {
-                title
-              }
-            }
-          }
-        `}
-        render={data => (
-          <>
-            <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
-              <div id="wrapper">{children}</div>
-            </div>
-          </>
-        )}
-      />
+      <>
+        <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
+          <div id="wrapper">{children}</div>
+        </div>
+      </>
     );
   }
 }
@@ -49,12 +35,3 @@ Layout.propTypes = {
 };
 
 export default Layout;
-
-export const Head = ({ location, params, data, pageContext }) => (
-  <>
-    <title>Guillermo Rodríguez</title>
-    <meta name="description" content="Eventually"></meta>
-    <meta name="keywords" content="site,web"></meta>
-    <html lang="en" />
-  </>
-)
